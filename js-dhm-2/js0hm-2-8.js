@@ -1,7 +1,7 @@
 let dayplan = prompt("Ведіть день англ")
 switch (days){
     case 'monday':
-        console.log("нічого не заплановано")
+        console.log("нічого не запланован")
         break
     case 'tuesday':
         console.log("сходити в басейн на 10:30")
@@ -13,12 +13,12 @@ switch (days){
         console.log("нічого не заплановано")
         break
     case 'friday':
-        console.log("Зустріч з друзями")
+        console.log("Зустріч з друзям")
         break
     case 'Saturday':
-        console.log("нічого не заплановано")
+        console.log("нічого не запланован")
         break
     case 'sunday':
-        console.log("Рибалка")
+        console.log("Рибалк")
         break
 }

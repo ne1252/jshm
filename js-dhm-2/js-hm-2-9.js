@@ -7,5 +7,5 @@ else if (a<b){
     console.log(b)
 }
 else if (a===b){
-    console.log("числа однакові")
+    console.log("числа однаков")
 }
