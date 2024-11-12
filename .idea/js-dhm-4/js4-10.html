@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function minnumberofarray(arr) {
+        let min = arr[0]
+        for (const number of arr){
+            if (number < min){
+                min = number
+            }
+        }
+        return min
+    }
+    console.log(minnumberofarray([1,2,3,4,5,-1,2,3]))
+</script>
+</body>
+</html>
