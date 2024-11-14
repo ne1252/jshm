@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tite</title>
 </head>
 <body>
 <script>
@@ -12,9 +12,10 @@
       if (item.currency === exchangeCurrency){
         chosen = item
       }
-      let result = sumUAH / chosen.value
-      return result
     }
+    let result = sumUAH / chosen.value
+    return result
+
   }
   console.log(exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD'))
 </script>
