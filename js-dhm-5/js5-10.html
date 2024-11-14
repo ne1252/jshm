@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let minfounder = (array) =>{
+    let min = array[0]
+    for (const item of array){
+      if (item < min){
+        min = item
+      }
+    }
+    return min
+  }
+  console.log(minfounder([10,2,3,42,15,6,-1]))
+</script>
+</body>
+</html>
